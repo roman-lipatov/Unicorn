@@ -1,0 +1,113 @@
+.footer {
+  height: 516px;
+  padding: 56px 144px;
+  background-color: #3f3e46;
+  display: flex;
+
+
+  &__logo {
+    font-family: "HKGrotesk";
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 150px;
+    margin-right: 130px;
+
+    &--left {
+
+      &-title {
+        font-family: "HKGrotesk";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #8fc5ae;
+        margin-bottom: 16px;
+      }
+
+      &-item {
+        cursor: pointer;
+        font-family: "HKGrotesk";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        margin-bottom: 8px;
+      }
+    }
+
+    &--right {
+
+      &-title {
+        font-family: "HKGrotesk";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #8fc5ae;
+        margin-bottom: 16px;
+      }
+
+      &-item {
+        cursor: pointer;
+        font-family: "HKGrotesk";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+
+    &-inst {
+      padding: 6px;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      margin-bottom: 16px;
+    }
+
+    &-ball {
+      padding: 6px;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      margin-bottom: 16px;
+    }
+
+    &-twit {
+      padding: 6px;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      margin-bottom: 16px;
+    }
+
+    &-youtube {
+      padding: 6px;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+}

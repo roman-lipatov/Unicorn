@@ -1,0 +1,139 @@
+.stats {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+
+  &__container {
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    min-width: 240px;
+    max-width: 272px;
+    padding: 20px;
+
+    &-img {
+      width: 88px;
+      height: 82.61px;
+      margin-bottom: 16px;
+    }
+
+    &-price {
+      font-family: "HKGrotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      color: #a575ae;
+      margin-bottom: 16px;
+    }
+
+    &-title {
+      font-family: "HKGrotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 31px;
+      color: #a575ae;
+      margin-bottom: 8px;
+    }
+
+    &-subtitle {
+      font-family: "HKGrotesk";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+      color: #3f3e46;
+    }
+
+    &-text {
+      font-family: "HKGrotesk";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
+
+    &-second {
+      font-family: "HKGrotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      color: #a575ae;
+
+      &-text {
+        font-family: "HKGrotesk";
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #000;
+        margin-bottom: 32px;
+      }
+    }
+
+    &-button {
+      min-width: 200px;
+      max-width: 232px;
+      height: 40px;
+      background-color: #a575ae;
+      border: none;
+      font-family: "HKGrotesk";
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+      text-transform: uppercase;
+      transition: all 0.5s linear;
+
+      &:hover {
+        background-color: #ab52bb;
+      }
+    }
+  }
+
+  &__second {
+    box-sizing: border-box;
+    background-color: #5a3661;
+    min-width: 240px;
+    max-width: 272px;
+    padding: 20px;
+  
+    &-subtitle {
+      font-family: "HKGrotesk";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+      color: #fff;
+    }
+
+    &-text {
+      font-family: "HKGrotesk";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+      color: #fff;
+    }
+
+    &-another {
+      font-family: "HKGrotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      color: #a575ae;
+
+      &-text {
+        font-family: "HKGrotesk";
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #fff;
+        margin-bottom: 32px;
+      }
+    }
+  }
+}

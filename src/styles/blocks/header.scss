@@ -1,0 +1,66 @@
+.header {
+  margin: auto;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 144px 0;
+    box-sizing: border-box;
+  }
+
+  &__logo {
+    font-family: "HKGrotesk";
+    display: block;
+    color: #3f3e46;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  &__info {
+    font-family: "HKGrotesk";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+
+    &--button {
+      margin-left: 14px;
+      font-family: "HKGrotesk";
+      color: #fff;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      background-color: #a575ae;
+      width: 152px;
+      height: 40px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.5s linear;
+
+      &:hover {
+        background-color: #ab52bb;
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 8px;
+    font-family: "HKGrotesk";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #3f3e46;
+    padding: 48px 144px 32px;
+
+
+    &-text:last-child {
+      opacity: 0.55;
+    }
+  }
+}

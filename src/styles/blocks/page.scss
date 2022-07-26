@@ -1,0 +1,17 @@
+.page {
+  font-family: "HKGrotesk", sans-serif;
+  font-weight: 400;
+  font-size: 16;
+  line-height: 24px;
+  scroll-behavior: smooth;
+  color: $colorText;
+  box-sizing: border-box;
+
+  &__body {
+    margin: 0;
+  }
+
+  &__section {
+    margin-bottom: 56px;
+  }
+}
